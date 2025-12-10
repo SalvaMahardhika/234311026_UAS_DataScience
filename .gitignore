@@ -2,13 +2,20 @@
 # Custom ignore for Data Science
 # =============================
 
-# Data (raw, processed, large files)
+# =============================
+# DATA
+# =============================
+
+# Ignore all contents inside /data, but keep folder
 data/*
 !data/.gitkeep
 
+# Ignore other dataset folders
 datasets/
 raw_data/
 processed_data/
+
+# Ignore common data file types
 *.csv
 *.tsv
 *.xlsx
@@ -20,10 +27,16 @@ processed_data/
 *.parquet
 *.data
 
-# Model files
+
+# =============================
+# MODELS
+# =============================
+
+# Ignore all contents inside /models, but keep folder
 models/*
 !models/.gitkeep
 
+# Ignore typical model formats
 *.h5
 *.hdf5
 *.pt
@@ -33,18 +46,30 @@ models/*
 *.joblib
 *.onnx
 
-# Notebook outputs
+
+# =============================
+# NOTEBOOK OUTPUTS
+# =============================
 .ipynb_checkpoints/
 *.nbconvert.ipynb
 
-# Cache & temp
+
+# =============================
+# CACHE & TEMP FILES
+# =============================
 tmp/
 temp/
 logs/
 *.log
 
-# Colab
+
+# =============================
+# COLAB
+# =============================
 *.ipynb_checkpoints
 
-# Allow folder structure only
+
+# =============================
+# IMAGES — allow folder structure only
+# =============================
 !images/.gitkeep
