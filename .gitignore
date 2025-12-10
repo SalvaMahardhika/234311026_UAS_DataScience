@@ -251,3 +251,9 @@ logs/
 
 # Colab
 *.ipynb_checkpoints
+
+# Allow folder structure only
+!data/.gitkeep
+!models/.gitkeep
+!images/.gitkeep
+
