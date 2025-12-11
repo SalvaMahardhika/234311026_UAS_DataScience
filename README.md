@@ -37,24 +37,41 @@
 ---
 ## 📁 Struktur Folder
 ```
-project/
+234311026_UAS_DataScience/
 │
-├── data/                   # Dataset (tidak di-commit, download manual)
+├── data/
+│   ├── communities.data
+│   └── communities.names                   
 │
-├── notebooks/              # Jupyter notebooks
-│   └── ML_Project.ipynb
+├── notebooks/       
+│   └──234311026_uasdata01.ipynb
 │
-├── src/                    # Source code
+├── src/                   
 │   
-├── models/                 # Saved models
-│   ├── model_baseline.pkl
-│   ├── model_rf.pkl
-│   └── model_cnn.h5
+├── models/                 
+│   ├── gradient_boosting_model.joblib
+│   ├── linear_regression_model.joblib
+│   ├── mlp_model.h5
+│   └── mlp_savedmodel/
+│       ├── fingerprint.pb
+│       ├── saved_model.pb
+│       └── variables/
+│           ├── variables.data-00000-of-00001
+│           └── variables.index
 │
-├── images/                 # Visualizations
-│   └── r
+├── images/                 
+│   ├── feature important plot.png
+│   ├── heatmap hubungan antar ftr.png
+│   ├── histogram distribusi ftr.png
+│   ├── perbandingan data asli vs predict.png
+│   ├── perbandingan performa antar model.png
+│   ├── scatter plot hubungan antar ftr.png
+│   ├── train vs val loss per epoch.png
+│   └── train vs val mae.png
 │
-├── requirements.txt        # Dependencies
+├── requirements.txt
+├── Checklist Submit.md
+├── LICENSE        
 ├── .gitignore
 └── README.md
 ```
