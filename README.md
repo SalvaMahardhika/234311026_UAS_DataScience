@@ -4,7 +4,7 @@
 ## 👤 Informasi
 - **Nama:** Salva Mahardhika Pratama  
 - **Repo:** https://github.com/SalvaMahardhika/234311026_UAS_DataScience  
-- **Video:** [...]  
+- **Video:** https://youtu.be/ISKQuym34i4  
 
 ---
 
