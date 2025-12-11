@@ -1,4 +1,4 @@
-# ✅ CHECKLIST SEBELUM SUBMIT — FINAL VERSION
+# ✅ CHECKLIST SUBMIT 
 
 ## 📄 Laporan (PDF/Word/Markdown)
 - [x] Semua section terisi lengkap
@@ -27,3 +27,4 @@
 - [x] Tidak ada hardcoded path (semua menggunakan relative path: `./data/`, `./models/`)
 
 ---
+
